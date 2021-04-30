@@ -81,8 +81,7 @@ int main(int argc, char** argv)
 
 		//cv::imshow("Processed Image", d_result);
 		cv::Mat s_result(result);
-		//cv::imwrite("rEqui.png", s_result);
-		cv::imwrite("Laplacian_on_Cube.png", s_result);
+		cv::imwrite("rEqui.png", s_result);
 
 		cout << diff.count() << endl;
 
